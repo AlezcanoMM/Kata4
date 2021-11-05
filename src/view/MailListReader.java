@@ -19,12 +19,6 @@ public class MailListReader {
             if(Mail.isMail(line))
                 list.add(new Mail(line));
         }
-
-        int i = 0;
-        for(Mail mail: list){
-            i++;
-            System.out.println(i);
-        }
         return list;
     }
 }
